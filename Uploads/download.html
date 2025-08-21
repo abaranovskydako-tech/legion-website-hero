@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legion Website Export</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+        .download-btn:hover {
+            background: #0056b3;
+        }
+        .info {
+            background: #f8f9fa;
+            border-left: 4px solid #007bff;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .checksum {
+            font-family: monospace;
+            word-break: break-all;
+            background: #f1f1f1;
+            padding: 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Legion Website Export</h1>
+        <p>Полный архив проекта Legion Website готов к скачиванию</p>
+        
+        <a href="legion_website_export.zip" class="download-btn" download>
+            📁 Скачать legion_website_export.zip (49MB)
+        </a>
+        
+        <div class="info">
+            <h3>📊 Информация об архиве</h3>
+            <ul>
+                <li><strong>Размер:</strong> 49MB</li>
+                <li><strong>MD5:</strong> <span class="checksum">bd27d930f2103e78a2efc66c7ec01ba3</span></li>
+                <li><strong>SHA256:</strong> <span class="checksum">ade6f1039f301258a1f0e7835a2ef6fb3867b008e0f8453e78edb0bae84196f9</span></li>
+            </ul>
+        </div>
+        
+        <div class="info">
+            <h3>📋 Что включено</h3>
+            <ul>
+                <li>✅ Полный исходный код Next.js приложения</li>
+                <li>✅ Все компоненты и страницы (13 страниц)</li>
+                <li>✅ Конфигурационные файлы</li>
+                <li>✅ README.md с инструкциями</li>
+                <li>✅ .env.example с плейсхолдерами</li>
+                <li>✅ BUILD_REPORT.md (отчет о сборке)</li>
+                <li>✅ MANIFEST.txt (полный манифест)</li>
+                <li>✅ Все изображения и ресурсы</li>
+            </ul>
+        </div>
+        
+        <div class="info">
+            <h3>⚙️ Установка</h3>
+            <ol>
+                <li>Распаковать архив</li>
+                <li>Перейти в папку <code>app/</code></li>
+                <li>Выполнить <code>yarn install</code> или <code>npm install</code></li>
+                <li>Скопировать <code>.env.example</code> в <code>.env</code> и настроить</li>
+                <li>Запустить <code>yarn dev</code> или <code>npm run dev</code></li>
+            </ol>
+        </div>
+        
+        <div class="info">
+            <h3>🛡️ Исключения</h3>
+            <ul>
+                <li>❌ .env файлы (заменены на .env.example)</li>
+                <li>❌ node_modules (устанавливаются через yarn/npm)</li>
+                <li>❌ .git история (архив не содержит git репозиторий)</li>
+                <li>❌ .logs временные файлы</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

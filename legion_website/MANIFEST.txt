@@ -1,0 +1,76 @@
+
+# Legion Website Export Manifest
+Generated: 2025-01-19
+
+## Project Structure
+```
+legion_website/
+├── .abacus.donotdelete
+├── .gitignore
+├── README.md
+├── BUILD_REPORT.md
+├── MANIFEST.txt
+├── app/
+│   ├── .env.example
+│   ├── app/
+│   │   ├── about/page.tsx
+│   │   ├── api/ (authentication, leads, etc.)
+│   │   ├── cases/page.tsx
+│   │   ├── contacts/page.tsx
+│   │   ├── faq/page.tsx
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── page.tsx (main)
+│   │   ├── pricing/page.tsx
+│   │   ├── privacy/page.tsx
+│   │   ├── services/page.tsx
+│   │   ├── tender/page.tsx
+│   │   └── terms/page.tsx
+│   ├── components/
+│   │   ├── ui/ (50+ Shadcn components)
+│   │   └── *.tsx (custom components)
+│   ├── components.json
+│   ├── hooks/
+│   ├── lib/
+│   ├── next-env.d.ts
+│   ├── next.config.js
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── public/ (images, logos, JS)
+│   ├── scripts/
+│   ├── tailwind.config.ts
+│   ├── tsconfig.json
+│   └── yarn.lock -> symlink
+├── classic_index.html
+└── public/ (additional assets)
+```
+
+## Key Features
+- ✅ Next.js 14.2.28 with App Router
+- ✅ TypeScript 5.2.2 
+- ✅ Tailwind CSS 3.3.3
+- ✅ Shadcn/ui components
+- ✅ Multi-page structure (13 pages)
+- ✅ Lead generation forms
+- ✅ Authentication ready
+- ✅ Static export ready
+- ✅ Build tested successfully
+
+## Excluded Files
+- .env (replaced with .env.example)
+- .logs/ directory
+- .git/ directory (version control history excluded)
+- node_modules/ (symlinked, excluded)
+
+## Archive Information
+**File**: legion_website_export.zip
+**Size**: 49MB
+**MD5**: bd27d930f2103e78a2efc66c7ec01ba3
+**SHA256**: ade6f1039f301258a1f0e7835a2ef6fb3867b008e0f8453e78edb0bae84196f9
+
+## Notes
+- Project uses yarn for package management
+- All dependencies are listed in package.json
+- Environment variables documented in .env.example
+- Ready for deployment on static hosting platforms
+
